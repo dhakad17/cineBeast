@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+/* * {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}*/
+body{
+    background: #333;
+   /* font-family: 'Rubik', sans-serif;*/
+   font-family: cursive
+}
+#nav input{
+      width: 300px;
+      background-color: beige;
+      height: 50px;
+      font-size: 25px;
+      border-radius: 12px;
+      margin-top: 10px;
+     
+}
+#nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#nav ul li{
+    display: block;
+    /*float: right;*/
+    /*padding: 10px;*/
+
+}
+#nav ul li input{
+   
+    float: right;
+}
+#nav ul li button{
+    float: right;
+}
+#nav ul li h1{
+    float: left;
+}
+#movies{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#movies li{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    background: #000;
+}
+#movies li img{
+    max-width: 200px;
+    border-radius: 12px;
+}
+#movies li h2{
+    color: beige;
+    font-size: 1.2em;
+    padding-top: -5px;
+   /* margin-top: auto;*/
+   margin: 5px;
+
+}
+h3{
+    color: beige;
+}
+h1{
+    color: beige;
+}
+.noselect {
+    -webkit-touch-callout: none;
+      -webkit-user-select: none;
+       -khtml-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+          -webkit-tap-highlight-color: transparent;
+  }
+  
+  button {
+      width: 150px;
+      height: 50px;
+      cursor: pointer;
+      background: #333;
+      margin: 10px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+      color: rgb(243, 237, 237);
+      font-size: 16px;
+      display: inline;
+  }
+  
+  button:hover {
+      box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+      font-size: 15px;
+      transition: 500ms;
+  }
+  
+  button:focus {
+      outline: none;
+  }
+  .green:hover {
+    color: #93f071;
+text-shadow: 0px 0px 10px #44ff00;/*#44ff00*/
+}
+.glow {
+    font-family: cursive;
+    margin-top: 0%;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #00d8f5, 0 0 40px #00d8f5, 0 0 50px #00d8f5, 0 0 60px #00d8f5, 0 0 70px #00d8f5;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #77e9f8, 0 0 40px #77e9f8, 0 0 50px #77e9f8, 0 0 60px #77e9f8, 0 0 70px #77e9f8, 0 0 80px #77e9f8;
+    }
+  }
+  #error{
+      color: red;
+      font-weight: bold;
+      font-size: 100px;
+      text-align: center;
+      align-content: center;
+  }
